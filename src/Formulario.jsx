@@ -11,7 +11,7 @@ function Formulario(){
                      value=""/><label>Sintomas</label><textarea name="sintomas" className="u-full-width"></textarea><button type="submit"
                       className="u-full-width button-primary">Agregar Cita</button></form>
         </div>
-    )
+    );
 }
 
 export default Formulario

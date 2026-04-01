@@ -1,5 +1,5 @@
 import './App.css'
-import './Cita.jsx'
+import Cita from './Cita.jsx'
 
 function Listado(){
     return(
