@@ -1,7 +1,8 @@
 import './Listado.css'
 import Cita from './Cita.jsx'
 
-function Listado(){
+function Listado({citas, setCitas}){
+
     return(
         <div className="one-half column">
             <h2>Administra tus citas</h2>

@@ -1,6 +1,12 @@
 import './Formulario.css'
 
-function Formulario(){
+function Formulario(setCitas){
+    const [duenio, setDuenio] = useState("");
+    const [mascota, setMascota] = useState("");
+    const [fecha, setFecha] = useState("");
+    const [hora, setHora] = useState("");
+    const [sintomas, setSintomas] = useState("");
+  
     return(
         <div className="one-half column">
             <h2>Crear mi Cita</h2>
