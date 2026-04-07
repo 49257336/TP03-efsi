@@ -1,4 +1,4 @@
-import './App.css'
+import './Listado.css'
 import Cita from './Cita.jsx'
 
 function Listado(){
